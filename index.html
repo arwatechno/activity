@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="assests/css/style.css">       
+</head>
+<body>
+    
+    <!--navigation bar-->    
+    <div id="navBar">
+        <!--logo-->
+        <img 
+        alt="book logo" 
+        id="logo" 
+        src="https://i.pinimg.com/736x/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.jpg">
+        <h1>Between the Pages <br><span id="text"> A Book Lover's Journey</span> </h1>
+        <ul>
+            <!--main page-->
+            <a href="#"><i>Home</i></a>
+            <!--scroll to cards-->
+            <a href="#main1"><i>Books</i></a>
+            </ul>
+    </div>         
+    <!--searching area-->
+    <div id="searcharea">
+    <div id="search">
+        <!--search box-->
+        <button class="searchbotton">
+        <i class="searchbox"></i>
+        </button>
+        <input type="text" class="input-search" placeholder="what are you looking for?">
+    </div>
+    </div>
+    <!--book -->
+    <div id="main1">
+        <!--book1-->
+        <a><div class="card1" id="one">
+            <div id="summary">
+            <h2>The Secret History of Bigfoot</h2>
+            <p>From the shrouded forests of the Pacific Northwest to off-the-wall cryptozoological conventions, one man searches high and low for the answer to the real or not, why do we want to believe?
+
+                Journalist and writer John O'Connor takes readers on a narrative quest through the American wilds in search of Bigfoot, its myth and meaning. Inhabited by an eccentric cast of characters – reputable men of science and deluded charlatans alike – the book explores the zany and secretive world of "cryptozoology," tracking Bigfoot from the Wild Men of Native American and European lore to Harry and the Hendersons, while examining the forces behind our ever-widening belief in the supernatural. 
+                
+                By turns an ardent, philosophical defense of nature, investigation into what Kurt Andersen calls our peculiar "American appetites for immersive make-believe," and a gonzo trip into alternative reality, this is the story of our Bigfoot obsession – where it comes from, what it means today – and the people driving it. Tag along with O'Connor as he treks through the shrouded forests of the Pacific Northwest, studies indigenous legends, and attends off-the-wall cryptozoological conventions.
+                
+                Perfect for readers of Bill Bryson and Douglas Preston and with sharp wit and an adventurous spirit, this heartfelt exploration of a cornerstone of American folklore unpacks why we believe in the things that we do, and what that says about us.</p>
+            </p>
+            </div>
+            <img 
+            id="bookphoto"
+             alt="photo1" 
+             src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710781758i/152180034.jpg">            
+        </div></a>
+        <!--book2-->
+        <a><div class="card1" id="two">
+            <div id="summary">
+            <h2>The Personal Librarian</h2>
+            <p>In her twenties, Belle da Costa Greene is hired by J. P. Morgan to curate a collection of rare manuscripts, books, and artwork for his newly built Pierpont Morgan Library. Belle becomes a fixture on the New York society scene and one of the most powerful people in the art and book world, known for her impeccable taste and shrewd negotiating for critical works as she helps build a world-class collection.
+
+                But Belle has a secret, one she must protect at all costs. She was born not Belle da Costa Greene but Belle Marion Greener. She is the daughter of Richard Greener, the first Black graduate of Harvard and a well-known advocate for equality. Belle's complexion isn't dark because of her alleged Portuguese heritage that lets her pass as white—her complexion is dark because she is African American.
+                
+                The Personal Librarian tells the story of an extraordinary woman, famous for her intellect, style, and wit, and shares the lengths to which she must go—for the protection of her family and her legacy—to preserve her carefully crafted white identity in the racist world in which she lives.</p>
+            </div>
+            <img 
+            id="bookphoto"
+             alt="photo2"
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610646708i/55333938.jpg">
+        </div></a>
+        <!--book3-->
+        <a><div class="card1" id="three">
+            <div id="summary">
+            <h2>Empire of Pain: The Secret History of the Sackler Dynasty</h2>
+            <p>The Sackler name adorns the walls of many storied institutions: Harvard, the Metropolitan Museum of Art, Oxford, the Louvre. They are one of the richest families in the world, known for their lavish donations to the arts and sciences. The source of the family fortune was vague, however, until it emerged that the Sacklers were responsible for making and marketing OxyContin, a blockbuster painkiller that was a catalyst for the opioid crisis.
+
+                Empire of Pain is a masterpiece of narrative reporting and writing, exhaustively documented and ferociously compelling.</p>
+            </div>
+            <img 
+            id="bookphoto"
+             alt="photo3" 
+             src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611952534i/43868109.jpg">
+        </div></a>
+    </div>
+    <!--footer-->
+    <div id="footer">
+        <script>
+            //linking div one to post1
+            document.addEventListener('DOMContentLoaded', function() {
+            const divElement = document.querySelector('#one');
+            divElement.addEventListener('click', function() {
+            window.location.href = 'assests/blog-posts/post1.html';
+            });
+            });
+            //linking div two to post2
+            document.addEventListener('DOMContentLoaded', function() {
+            const divElement = document.querySelector('#two');
+            divElement.addEventListener('click', function() {
+            window.location.href = 'assests/blog-posts/post1.html';
+            });
+            });
+            //linking div three to post3
+            document.addEventListener('DOMContentLoaded', function() {
+            const divElement = document.querySelector('#three');
+            divElement.addEventListener('click', function() {
+            window.location.href = 'assests/blog-posts/post1.html';
+            });
+            });
+            
+            
+        </script>
+        <label>by Arwa Tamer@all rights reserved</label>
+    </div>
+</body>
+</html>
